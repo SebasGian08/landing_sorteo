@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IAL - Sorteo</title>
+    <link rel="stylesheet" href="public/sorteo.css">
     <style>
     body {
         font-family: 'Press Start 2P', cursive;
@@ -22,78 +23,7 @@
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     }
 
-    .container {
-        background: rgba(0, 0, 0, 0.7);
-        padding: 30px;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
-        border: 2px solid #ffd700;
-        /* Borde dorado */
-    }
 
-    input[type="number"] {
-        padding: 10px;
-        /* width: 80px; */
-        margin: 10px 0;
-        border: 2px solid #ffd700;
-        border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.1);
-        color: #ffd700;
-    }
-
-    button {
-        padding: 10px 30px;
-        background-color: #ffd700;
-        color: black;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: transform 0.2s;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-
-    button:hover {
-        transform: scale(1.1);
-        background-color: #ffc700;
-        /* Color más oscuro al pasar el mouse */
-    }
-
-    .loading {
-        display: none;
-        margin-top: 20px;
-        color: #ffcc00;
-        font-size: 18px;
-    }
-
-    #result {
-        margin-top: 20px;
-        font-size: 28px;
-    }
-
-    .winner {
-        font-weight: bold;
-        animation: bounce 1s infinite;
-    }
-
-    @keyframes bounce {
-
-        0%,
-        100% {
-            transform: translateY(0);
-        }
-
-        50% {
-            transform: translateY(-15px);
-        }
-    }
-
-    .random-names {
-        font-size: 22px;
-        margin: 10px 0;
-        color: #ffd700;
-    }
     </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
 </head>
