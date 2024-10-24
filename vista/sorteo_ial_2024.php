@@ -146,7 +146,6 @@
         setTimeout(() => {
             // Detener el intervalo de nombres aleatorios
             clearInterval(randomNamesInterval);
-
             // Hacer la solicitud para obtener los participantes
             fetch(
                     `${baseUrl}/landing_sorteo/index.php?vista=sorteo_ial_2024&accion=obtener_participantes&cantidad=${ganadores}`
@@ -173,7 +172,7 @@
                     console.error("Error fetching participants:", error);
                     result.innerHTML = "Error al obtener los participantes.";
                 });
-        }, 4000); // Espera 4 segundos (10000 ms)
+        }, 4000);
     });
     </script>
 
