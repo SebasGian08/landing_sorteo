@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /landing_sorteo/
+RewriteRule ^([^/]+)$ index.php?vista=$1 [L,QSA]

@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pop-bla {
+    font-family: "PopBlack";
+  }
+  
+  .pop-med {
+    font-family: "PopMedium";
+  }
+  
+  .pop-sem {
+    font-family: "PopSemiBold";
+  }
+  
+  .pop-bol {
+    font-family: "PopBold";
+  }
+  
+  .pop-ext {
+    font-family: "PopExtra";
+  }
+  
+  .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+
+  @media (min-width: 1024px) {
+    .wrapper {
+      max-width: 1400px;
+    }
+  
+    .wrapper {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    
+  }
+
+  @font-face {
+    font-family: "PopBlack";
+  
+    src: url(./fonts/Poppins-Black.ttf);
+  
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "PopMedium";
+  
+    src: url(./fonts/Poppins-Medium.ttf);
+  
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: "PopSemiBold";
+  
+    src: url(./fonts/Poppins-SemiBold.ttf);
+  
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: "PopBold";
+  
+    src: url(./fonts/Poppins-Bold.ttf);
+  
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "PopExtra";
+  
+    src: url(./fonts/Poppins-ExtraBold.ttf);
+  
+    font-weight: 800;
+  }
+  
+  :root {
+    --primary-color: #000;
+    --secondary-color: #000;
+  }
+  
+  .iframe {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  
+  .iframe__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .body-bg {
+    background-image: url(./img/puntitos_movil.png), url(./img/puntitos_movil.png),
+      url(./img/puntitos_horizontal_movil.png),
+      url(./img/puntitos_horizontal_movil.png);
+    background-position: 2% 6%, 98% 20%, -80px 85%, calc(100% + 90px) 70%;
+    background-repeat: no-repeat;
+    background-size: auto, auto, auto, auto, cover;
+  }
+  
+  .footer {
+    background: #fff;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer {
+      background-image: url(./img/footer.png);
+      background-position: left bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right top;
+    }
+  }

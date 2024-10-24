@@ -1,0 +1,58 @@
+
+.caja{
+    background: linear-gradient(to right, #0746b3, #0746b3);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.caja:hover{
+    background: linear-gradient(to right, #053383, #053383);
+}
+
+
+.input-d{
+    width: 90%;
+    outline: none;
+    border: 0 none;
+}
+
+
+/* BOTON */
+
+.caja-boton{
+    transition: all 2s;
+    background: linear-gradient(to right, #0746b3, #0746b3);
+    width: 215px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0 auto;
+
+}
+
+.caja-boton:hover{
+    background: linear-gradient(to right, #053383, #053383);
+}
+
+.boton-d{
+    width: 200px;
+    border: 0 none;
+}
+
+.flex-content-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 6px){
+    .flex-center-sm{
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+
+}
+
